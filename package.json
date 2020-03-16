@@ -1,0 +1,30 @@
+{
+  "name": "@hqjs/babel-plugin-transform-export-all",
+  "version": "0.0.1",
+  "description": "Transform export all to named imports and export default",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hqjs/babel-plugin-transform-export-all.git"
+  },
+  "keywords": [
+    "babel",
+    "plugin",
+    "hq",
+    "name",
+    "export",
+    "all"
+  ],
+  "author": "hqjs <hqjs.org@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hqjs/babel-plugin-transform-export-all/issues"
+  },
+  "homepage": "https://hqjs.org",
+  "publishConfig": {
+    "access": "public"
+  }
+}
