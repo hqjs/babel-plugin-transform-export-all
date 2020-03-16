@@ -36,6 +36,7 @@ module.exports = function ({ types: t }) {
           names.length = 0;
         },
         exit(nodePath) {
+          if (names.length === 0) return;
           const found = { value: false };
           nodePath.traverse(exportDefaultVisitor(t, found, names));
           if (!found.value) {
