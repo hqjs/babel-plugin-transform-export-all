@@ -1,6 +1,6 @@
 {
   "name": "@hqjs/babel-plugin-transform-export-all",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Transform export all to named imports and export default",
   "main": "index.js",
   "scripts": {
